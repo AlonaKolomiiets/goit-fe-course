@@ -71,15 +71,15 @@ img {
 }
 
 .Lifestyle-item {
-    margin-right: 122px;
+    margin-right: 112px;
 }
 
 .Photodiary-item {
-    margin-right: 104px;
+    margin-right: 94px;
 }
 
 .Music-item {
-    margin-right: 94px;
+    margin-right: 84px;
 }
 
 .Travel-item {
@@ -138,7 +138,7 @@ section {
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 18px;
     color: #b4ad9e;
     margin-bottom: 26px;
     font-weight: 300;
