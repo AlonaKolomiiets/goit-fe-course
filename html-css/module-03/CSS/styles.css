@@ -1,0 +1,180 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Playfair Display", "Arial", "Times New Roman", serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 902px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border:0;
+    padding:0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip:rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*SITE-NAVIGATION*/
+
+.site-navigation {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.page-nav {
+    padding: 72px 0 0 0;
+}
+
+.site-navigation a {
+    color: 626262;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.site-navigation li {
+    display: inline-block;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #03a9f4;
+}
+
+.Lifestyle-item {
+    margin-right: 122px;
+}
+
+.Photodiary-item {
+    margin-right: 104px;
+}
+
+.Music-item {
+    margin-right: 94px;
+}
+
+.Travel-item {
+    margin: 0;
+}
+
+.page-header {
+    margin-bottom: 98px;
+}
+
+/*MAIN*/
+.articles {
+    display: inline-block;
+    width: 420px;
+}
+
+.articles {
+    margin: 0;
+    padding: 0;
+}
+
+.articles {
+    margin-right: 60px;
+}
+
+.articles:nth-last-of-type(odd) {
+    margin-right: 0px;
+}
+
+.articles {
+    margin-bottom: 130px;
+}
+
+.articles:nth-last-of-type(-n+2) {
+    margin-bottom: 52px;
+}
+
+section {
+    font-size: 0;
+    text-align: left;
+}
+
+.articles {
+    vertical-align: top;
+}
+
+.article-list-image {
+    margin-bottom: 30px;
+}
+
+.article-list-type {
+    margin: 0;
+}
+
+.article-list-type {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4ad9e;
+    margin-bottom: 26px;
+    font-weight: 300;
+}
+
+.article-title {
+    margin: 0;
+}
+
+.article-title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+
+.article-content {
+    margin: 0;
+}
+
+.article-content {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.load-more-button {
+    border: 1px solid #626262;
+    margin: 0;
+    padding: 20px 34px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+}
