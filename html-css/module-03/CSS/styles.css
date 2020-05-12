@@ -54,7 +54,7 @@ img {
 }
 
 .site-navigation a {
-    color: 626262;
+    color: #626262;
     text-transform: uppercase;
     font-weight: 400;
     text-decoration: none;
@@ -173,6 +173,7 @@ section {
     color: #626262;
     font-weight: 400;
     cursor: pointer;
+    margin-bottom: 70px;
 }
 
 .button {
