@@ -191,6 +191,8 @@ section {
     text-align: center;
 }
 
-.button:hover {
+.load-more-button:hover,
+.load-more-button:focus {
     color: #03a9f4;
+    border: 1px solid #03a9f4;
 }
