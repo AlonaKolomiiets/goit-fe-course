@@ -54,6 +54,7 @@ img {
 }
 
 .site-navigation a {
+    display: block;
     color: #626262;
     text-transform: uppercase;
     font-weight: 400;
@@ -92,10 +93,11 @@ img {
 }
 
 .page-header {
-    margin-bottom: 98px;
+    padding-bottom: 98px;
 }
 
 /*MAIN*/
+
 .articles {
     display: inline-block;
     width: 420px;
@@ -125,6 +127,7 @@ img {
 section {
     font-size: 0;
     text-align: left;
+    padding-bottom: 70px;
 }
 
 .articles {
@@ -170,6 +173,8 @@ section {
     font-weight: 400;
 }
 
+/* BUTTON*/
+
 .load-more-button {
     border: 1px solid #626262;
     margin: 0;
@@ -179,10 +184,13 @@ section {
     color: #626262;
     font-weight: 400;
     cursor: pointer;
-    margin-bottom: 70px;
     background-color: #ffffff;
 }
 
 .button {
     text-align: center;
+}
+
+.button:hover {
+    color: #03a9f4;
 }
