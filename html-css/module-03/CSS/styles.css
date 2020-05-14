@@ -72,24 +72,14 @@ img {
     color: #03a9f4;
 }
 
-.Lifestyle-item {
-    margin-right: 120px;
+.main-menu-item {
     font-size: 14px;
+    margin-right: 106px;
 }
 
-.Photodiary-item {
-    margin-right: 104px;
-    font-size: 14px;
-}
 
-.Music-item {
-    margin-right: 94px;
-    font-size: 14px;
-}
-
-.Travel-item {
+.site-navigation li:last-child {
     margin: 0;
-    font-size: 14px;
 }
 
 .page-header {
