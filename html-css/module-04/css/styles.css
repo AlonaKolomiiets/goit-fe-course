@@ -67,6 +67,10 @@ img {
     padding: 34px 0 0 0;
 }
 
+.page-header {
+    padding-bottom: 66px;
+}
+
 .menu li {
     float: left;
 }
@@ -108,8 +112,8 @@ img {
 
 /*GALLERY*/
 .section {
-    padding-top: 50px;
-    padding-bottom: 52px;
+    padding-top: 24px;
+    padding-bottom: 82px;
 }
 
 .section-title {
@@ -135,9 +139,9 @@ img {
 }
 
 .product-name {
-    margin:0;
-    padding:0;
-    float:left;
+    margin: 0;
+    padding: 0;
+    float: left;
 }
 
 .products-list {
@@ -239,7 +243,7 @@ img {
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
-    margin:0;
+    margin: 0;
     margin-bottom: 16px;
 }
 
@@ -260,7 +264,8 @@ img {
     cursor: pointer;
     background-color: #4ec6ab;
 }
+
 .read-more:hover,
 .read-more:focus {
-    background-color:  #323232;
+    background-color: #323232;
 }
