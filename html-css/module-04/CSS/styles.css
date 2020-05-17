@@ -89,7 +89,6 @@ img {
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
-    display: block;
 }
 
 .main-menu-item {
@@ -238,7 +237,6 @@ h3::after {
 
 .button {
     text-align: left;
-    background-color:  #4ec6ab;
 }
 
 .read-more-button {
@@ -248,13 +246,8 @@ h3::after {
     line-height: 26px;
     color: #ffffff;
     font-weight: 300;
-    cursor: pointer;
     background-color: #4ec6ab;
+    border: none;
+    border-radius: 3px;
     cursor: pointer;
-}
-
-.read-more-button:hover,
-.read-more-button:focus {
-    color: #ffffff;
-    background-color: #555252;
 }
