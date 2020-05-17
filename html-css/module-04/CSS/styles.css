@@ -67,10 +67,6 @@ img {
     padding: 34px 0 0 0;
 }
 
-.page-header {
-    padding-bottom: 102px;
-}
-
 .menu li {
     float: left;
 }
@@ -94,7 +90,6 @@ img {
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
-
 }
 
 .main-menu-item {
@@ -112,11 +107,12 @@ img {
 
 
 /*GALLERY*/
-section {
-    padding-bottom: 102px;
+.section {
+    padding-top: 50px;
+    padding-bottom: 52px;
 }
 
-h2 {
+.section-title {
     text-align: center;
     font-size: 48px;
     line-height: 32px;
@@ -125,9 +121,10 @@ h2 {
     color: #515151;
     letter-spacing: -0.96px;
     text-transform: uppercase;
+    margin-bottom: 92px;
 }
 
-h2::after {
+.section-title::after {
     content: '';
     display: block;
     width: 164px;
@@ -135,7 +132,12 @@ h2::after {
     background-color: #1abc9c;
     margin: 0 auto;
     margin-top: 32px;
-    margin-bottom: 92px;
+}
+
+.product-name {
+    margin:0;
+    padding:0;
+    float:left;
 }
 
 .products-list {
@@ -155,7 +157,7 @@ h2::after {
     margin-right: 0;
 }
 
-.products-list:nth-last-child(-n+4) {
+.product-type:nth-last-child(-n+4) {
     margin-bottom: 0;
 }
 
@@ -179,19 +181,15 @@ h2::after {
 }
 
 .price {
-    background-color: #8c8c8c;
+    background-color: rgba(255, 255, 255, 0.5);
     float: right;
     padding: 0 12px 0 12px;
+
 }
 
 .product-type:hover .product-description,
 .product-type:focus .product-description {
     background-color: #1abc9c;
-}
-
-.product-type:hover .price,
-.product-type:focus .price {
-    background-color: #7fd9c7;
 }
 
 /* BLOG*/
@@ -216,16 +214,17 @@ h2::after {
     margin-bottom: 14px;
 }
 
-h3 {
+.news-title {
     line-height: 26px;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: -0.96px;
     text-align: left;
     margin: 0;
+    margin-bottom: 30px;
 }
 
-h3::after {
+.news-title::after {
     content: '';
     display: block;
     width: 136px;
@@ -233,7 +232,6 @@ h3::after {
     background-color: #1abc9c;
     margin: 0;
     margin-top: 14px;
-    margin-bottom: 30px;
 
 }
 
@@ -241,23 +239,28 @@ h3::after {
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
+    margin:0;
+    margin-bottom: 16px;
 }
 
-/* BUTTON*/
+/* READ More*/
 
-.button {
-    text-align: left;
-}
 
-.read-more-button {
+.read-more {
+    display: block;
     margin: 0;
     padding: 12px 40px;
+    width: 160px;
+    height: 52;
     font-size: 16px;
     line-height: 26px;
     color: #ffffff;
-    background-color: #4ec6ab;
     font-weight: 300;
-    border: none;
     border-radius: 3px;
     cursor: pointer;
+    background-color: #4ec6ab;
+}
+.read-more:hover,
+.read-more:focus {
+    background-color:  #323232;
 }

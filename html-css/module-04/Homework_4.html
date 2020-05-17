@@ -8,7 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
 </head>
 
@@ -40,7 +40,7 @@
     </header>
 
     <main>
-        <section>
+        <section class="section">
             <div class="container">
                 <h2 class="section-title">Featured products</h2>
                 <ul class="products-list clearfix">
@@ -49,7 +49,9 @@
                             <img class="product-image" src="img/product1.png" alt="Blue tshirt" width="270"
                                 height="252" />
                         </div>
-                        <a class="product-description clearfix"> Blue tshirt<span class="price">&#36;26</span></a>
+                        <a class="product-description clearfix">
+                            <h3 class="product-name">Blue tshirt</h3><span class="price">&#36;26</span>
+                        </a>
                     </li>
 
                     <li class="product-type">
@@ -57,7 +59,9 @@
                             <img class="product-image" src="img/product2.png" alt="Women shirt" width="206"
                                 height="116" />
                         </div>
-                        <a class="product-description clearfix">Women shirt<span class="price">&#36;31</span></a>
+                        <a class="product-description clearfix">
+                            <h3 class="product-name">Women shirt</h3><span class="price">&#36;31</span>
+                        </a>
                     </li>
 
                     <li class="product-type">
@@ -65,7 +69,9 @@
                             <img class="product-image" src="img/product3.png" alt="Yellow tshirt" width="230"
                                 height="158" />
                         </div>
-                        <a class="product-description clearfix">Yellow tshirt<span class="price">&#36;21</span></a>
+                        <a class="product-description clearfix">
+                            <h3 class="product-name">Yellow tshirt</h3><span class="price">&#36;21</span>
+                        </a>
                     </li>
 
                     <li class="product-type">
@@ -73,7 +79,9 @@
                             <img class="product-image" src="img/product4.png" alt="Cool lingerie" width="220"
                                 height="186" />
                         </div>
-                        <a class="product-description clearfix">Cool lingerie<span class="price">&#36;56</span></a>
+                        <a class="product-description clearfix">
+                            <h3 class="product-name">Cool lingerie</h3><span class="price">&#36;56</span>
+                        </a>
                     </li>
 
                     <li class="product-type">
@@ -81,7 +89,9 @@
                             <img class="product-image" src="img/product5.png" alt="Blue tshirt" width="198"
                                 height="212" />
                         </div>
-                        <a class="product-description clearfix">Blue tshirt<span class="price">&#36;26</span></a>
+                        <a class="product-description clearfix">
+                            <h3 class="product-name">Blue tshirt</h3><span class="price">&#36;26</span>
+                        </a>
                     </li>
 
                     <li class="product-type">
@@ -89,7 +99,9 @@
                             <img class="product-image" src="img/product6.png" alt="Women shirt" width="260"
                                 height="180" />
                         </div>
-                        <a class="product-description clearfix">Women shirt<span class="price">&#36;31</span></a>
+                        <a class="product-description clearfix">
+                            <h3 class="product-name">Women shirt</h3><span class="price">&#36;31</span>
+                        </a>
                     </li>
 
                     <li class="product-type">
@@ -97,7 +109,9 @@
                             <img class="product-image" src="img/product7.png" alt="Yellow tshirt" width="170"
                                 height="216" />
                         </div>
-                        <a class="product-description clearfix">Yellow tshirt<span class="price">&#36;21</span></a>
+                        <a class="product-description clearfix">
+                            <h3 class="product-name">Yellow tshirt</h3><span class="price">&#36;21</span>
+                        </a>
                     </li>
 
                     <li class="product-type">
@@ -105,13 +119,15 @@
                             <img class="product-image" src="img/product8.png" alt="Cool lingerie" width="190"
                                 height="80" />
                         </div>
-                        <a class="product-description clearfix">Cool lingerie<span class="price">$56</span></a>
+                        <a class="product-description clearfix">
+                            <h3 class="product-name">Cool lingerie</h3><span class="price">$56</span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section>
+        <section class="section">
             <div class="container">
                 <h2 class="section-title">Latest news</h2>
                 <ul class="news-list clearfix">
@@ -123,9 +139,7 @@
                         <p class="news-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         </p>
-                        <div class="button">
-                            <button class="read-more-button">Read More</button>
-                        </div>
+                        <a class="read-more">Read More</a>
                     </li>
                     <li class="news-item">
                         <img class="news-list-image" src="img/blog2.jpg" alt="Society" width="348" height="260" />
@@ -134,9 +148,8 @@
                         <p class="news-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         </p>
-                        <div class="button">
-                            <button class="read-more-button">Read More</button>
-                        </div>
+                        <a class="read-more">Read More</a>
+
                     </li>
 
                     <li class="news-item">
@@ -146,9 +159,8 @@
                         <p class="news-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         </p>
-                        <div class="button">
-                            <button class="read-more-button">Read More</button>
-                        </div>
+
+                        <a class="read-more">Read More</a>
                     </li>
                 </ul>
             </div>
