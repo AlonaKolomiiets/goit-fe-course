@@ -111,7 +111,6 @@ img {
 }
 
 
-
 /*GALLERY*/
 section {
     padding-bottom: 102px;
@@ -137,13 +136,11 @@ h2::after {
     margin: 0 auto;
     margin-top: 32px;
     margin-bottom: 92px;
-
 }
 
 .products-list {
     margin: 0;
     padding: 0;
-    margin-bottom: 30px;
     list-style: none;
 }
 
@@ -151,14 +148,15 @@ h2::after {
     float: left;
     margin-right: 30px;
     width: 254px;
+    margin-bottom: 30px;
 }
 
 .products-list li:nth-of-type(4n) {
     margin-right: 0;
 }
 
-.products-list li:nth-last-child(-n+4) {
-    margin-top: 30px;
+.products-list:nth-last-child(-n+4) {
+    margin-bottom: 0;
 }
 
 .container-img {
