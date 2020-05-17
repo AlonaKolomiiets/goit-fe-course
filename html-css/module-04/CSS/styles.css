@@ -184,13 +184,13 @@ h2::after {
     padding: 0 12px 0 12px;
 }
 
-.product-description:hover,
-.product-description:focus {
+.product-type:hover .product-description,
+.product-type:focus .product-description {
     background-color: #1abc9c;
 }
 
-.product-description:hover .price,
-.product-description:focus .price {
+.product-type:hover .price,
+.product-type:focus .price {
     background-color: #7fd9c7;
 }
 
