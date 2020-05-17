@@ -157,7 +157,7 @@ h2::after {
     margin-right: 0;
 }
 
-.products-list:nth-last-child(-n+4) {
+.products-list li:nth-last-child(-n+4) {
     margin-top: 30px;
 }
 
