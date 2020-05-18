@@ -119,7 +119,7 @@ img {
 .section-title {
     text-align: center;
     font-size: 48px;
-    line-height: 32px;
+    line-height: 58px;
     margin: 0 auto;
     font-weight: 900;
     color: #515151;
@@ -171,9 +171,13 @@ img {
     text-align: center;
 }
 
+.product__img-rotate {
+    transform: rotate(60deg);
+}
+
 .product-image {
-    display: inline-block;
-    vertical-align: middle;
+display: inline-block;
+vertical-align: middle;
 }
 
 .product-description {
@@ -185,10 +189,9 @@ img {
 }
 
 .price {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.439);
     float: right;
     padding: 0 12px 0 12px;
-
 }
 
 .product-type:hover .product-description,
@@ -265,7 +268,8 @@ img {
     background-color: #4ec6ab;
 }
 
-.read-more:hover,
-.read-more:focus {
+.news-item:hover .read-more,
+.news-item:focus .read-more {
+    
     background-color: #323232;
 }
