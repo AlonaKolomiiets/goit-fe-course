@@ -72,7 +72,7 @@ img {
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     float: left;
-    letter-spacing: -0, 6;
+    letter-spacing: -0.6px;
 }
 
 .logo::first-letter {
@@ -345,7 +345,7 @@ img {
 
 .btn-img:hover,
 .btn-img:focus {
-    border-width: 1px solid rgb(26, 188, 156);
+    border: 1px solid rgb(26, 188, 156);
     background-color: rgb(26, 188, 156);
 }
 
