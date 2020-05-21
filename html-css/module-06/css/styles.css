@@ -89,6 +89,9 @@ img {
 }
 
 .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     float: right;
     width: 488px;
     margin-top: 10px;
@@ -158,9 +161,8 @@ img {
 .slider-about {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
+    text-align: center;
     text-transform: uppercase;
-    width: max-content;
-    margin: 0 auto;
 }
 
 .slider-title {
@@ -181,7 +183,7 @@ img {
 .slider-navigation {
     position: absolute;
     width: 100%;
-    top: 15%;
+    top: 0;
     left: 0;
 }
 
@@ -229,19 +231,25 @@ img {
     display: block;
     width: 164px;
     height: 7px;
-    background-color: rgb(26, 188, 156);
+    background-color: #1abc9c;
     margin: 0 auto;
-    margin-top: 26px;
+    margin-top: 28px;
 }
 
 .section__new-collection {
     padding-top: 96px;
-    padding-bottom: 100px;
+    padding-bottom: 82px;
     background-color: rgb(233, 240, 253);
 }
 
 .product-type__item-img-wrapper {
     position: relative;
+}
+
+.products-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .product-type {
@@ -264,6 +272,8 @@ img {
 }
 
 .product-name {
+    margin: 0;
+    padding: 0;
     text-transform: uppercase;
     float: left;
 }
@@ -284,6 +294,8 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+
 }
 
 .overlay {
@@ -302,6 +314,11 @@ img {
 .product-type:hover .overlay {
     opacity: 1;
     visibility: visible;
+}
+
+.list__btn-item {
+    margin: 0;
+    padding: 0;
 }
 
 .list__btn-item:nth-child(-n+2) {
@@ -361,6 +378,7 @@ img {
     background-image: url("../images/icons/clock.png");
 }
 
+
 .list__btn-item {
     float: left;
 }
@@ -369,7 +387,6 @@ img {
     margin: 0 18px 0px 0px;
     vertical-align: middle;
 }
-
 
 /* FOOTER */
 
