@@ -265,6 +265,11 @@ img {
 
 .product-name {
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.36px;
     float: left;
 }
 
@@ -272,6 +277,10 @@ img {
     background-color: rgba(255, 255, 255, 0.439);
     float: right;
     padding: 0 12px 0 12px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.36px;
 }
 
 .product-type:hover .product-description,
