@@ -90,7 +90,6 @@ img {
 
 .menu {
     float: right;
-    width: 488px;
     margin-top: 10px;
 }
 
@@ -103,7 +102,6 @@ img {
     line-height: 11px;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
-    cursor: pointer;
 }
 
 .main-menu-item {
@@ -192,6 +190,10 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+    background-color: rgba(78, 198, 171, 0.651);
+}
+
+.slider-button:hover {
     background-color: rgb(26, 188, 156);
 }
 
@@ -203,10 +205,6 @@ img {
 .next {
     float: right;
     background-image: url("../images/icons/forward.png");
-}
-
-.inactive {
-    background-color: rgba(78, 198, 171, 0.651);
 }
 
 
@@ -230,8 +228,7 @@ img {
     width: 164px;
     height: 7px;
     background-color: rgb(26, 188, 156);
-    margin: 0 auto;
-    margin-top: 26px;
+    margin: 26px auto 0;
 }
 
 .section__new-collection {
@@ -260,15 +257,14 @@ img {
     display: block;
     background-color: #323232;
     padding: 0 0 0 12px;
-    cursor: pointer;
 }
 
 .product-name {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 40px;
     letter-spacing: -0.36px;
     float: left;
 }
@@ -277,9 +273,9 @@ img {
     background-color: rgba(255, 255, 255, 0.439);
     float: right;
     padding: 0 12px 0 12px;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 40px;
     letter-spacing: -0.36px;
 }
 
@@ -330,7 +326,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
-    cursor: pointer;
     display: block;
 }
 
