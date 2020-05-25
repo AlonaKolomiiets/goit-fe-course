@@ -161,16 +161,15 @@ img {
 .services-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
 }
 
 .services__list-item {
     flex-basis: 382px;
-    padding-left: 84px;
+    padding-left: 60px;
     background-repeat: no-repeat;
-    background-position: left top;
-    background-position-x: 26px;
+    background-position: left 8px top;
 }
 
 .services__list-item:not(:nth-last-child(-n+3)) {
