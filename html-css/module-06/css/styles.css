@@ -220,7 +220,7 @@ img {
 
 .section-discription {
     margin-bottom: 90px;
-    min-width: 945px;
+    max-width: 945px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 24px;
@@ -237,7 +237,7 @@ img {
 }
 
 .team__list-item {
-    min-width: 380px;
+    width: 380px;
 }
 
 .team__list-item:not(:last-child) {
@@ -287,7 +287,7 @@ img {
 
 .team__image-wrapper {
     position: relative;
-    min-width: 100%;
+    width: 100%;
     margin-bottom: 30px;
     transition: all 200ms linear;
 }
