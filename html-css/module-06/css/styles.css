@@ -293,13 +293,13 @@ img {
 
 .team__image-wrapper {
     position: relative;
-    transition: all .2s linear;
 }
 
 .team__list-item:hover .overlay,
 .team__list-item:focus .overlay {
-    transform: translate(-12px, -12px);
     box-shadow: 12px 12px var(--base-color-green);
+    transform: translate(-12px, -12px);
+
 }
 
 .overlay {
@@ -314,6 +314,7 @@ img {
     left: 0;
     opacity: 0;
     visibility: hidden;
+    transition: all 200ms linear;
 }
 
 .overlay:hover,
