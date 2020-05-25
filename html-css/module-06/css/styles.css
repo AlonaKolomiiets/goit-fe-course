@@ -64,11 +64,11 @@ img {
     margin: 0 auto;
 }
 
-/*MENU-SECTION*/
+/*MENU HEADER*/
 
 .page-header {
     padding: 26px 0;
-    margin-bottom: 24px;
+    margin-bottom: 14px;
 }
 
 .logo {
@@ -123,10 +123,10 @@ img {
 }
 
 
-/* PARTNERSHIP*/
+/* OUR SERVICES*/
 
 .section {
-    padding: 78px;
+    padding: 44px 0;
 }
 
 .section-title {
@@ -247,7 +247,6 @@ img {
 
 .team__list-item:not(:last-child) {
     margin-right: 30px;
-
 }
 
 .link-img {
@@ -295,13 +294,6 @@ img {
     position: relative;
 }
 
-.team__list-item:hover .overlay,
-.team__list-item:focus .overlay {
-    box-shadow: 12px 12px var(--base-color-green);
-    transform: translate(-12px, -12px);
-
-}
-
 .overlay {
     display: flex;
     width: 100%;
@@ -315,6 +307,12 @@ img {
     opacity: 0;
     visibility: hidden;
     transition: all 200ms linear;
+}
+
+.team__list-item:hover .overlay,
+.team__list-item:focus .overlay {
+    box-shadow: 12px 12px var(--base-color-green);
+    transform: translate(-12px, -12px);
 }
 
 .overlay:hover,
@@ -344,7 +342,6 @@ img {
     font-size: 15px;
     line-height: 24px;
     text-align: center;
-
 }
 
 /* FOOTER */
