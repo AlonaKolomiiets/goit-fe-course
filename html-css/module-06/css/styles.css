@@ -356,6 +356,7 @@ img {
     height: 44px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     border: none;
     padding: 12px 32px;
