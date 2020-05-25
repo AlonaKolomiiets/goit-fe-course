@@ -297,8 +297,8 @@ img {
     transition: all .2s linear;
 }
 
-.team__list-item:hover .team__image-wrapper,
-.team__list-item:focus .team__image-wrapper {
+.team__list-item:hover .overlay,
+.team__list-item:focus .overlay {
     transform: translate(-12px, -12px);
     box-shadow: 12px 12px var(--base-color-green);
 }
