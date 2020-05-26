@@ -235,8 +235,7 @@ img {
 /*MENU HEADER*/
 
 .page-header {
-    padding: 28px 0;
-    margin-bottom: 14px;
+    padding: 28px 0 0;
 }
 
 .logo {
@@ -297,18 +296,18 @@ img {
 /* SERVICES*/
 
 .section {
-    padding: 44px 0;
+    padding: 116px 0;
 }
 
 .section-title {
     font-family: var(--main-font-family);
     font-size: 40px;
-    line-height: 48px;
+    line-height: 44px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -1px;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 .services-main-description {
@@ -436,6 +435,7 @@ img {
     font-weight: 700;
     font-family: var(--main-font-family);
     line-height: 19px;
+    border: none;
 
 }
 
