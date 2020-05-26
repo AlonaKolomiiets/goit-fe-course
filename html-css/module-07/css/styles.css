@@ -380,7 +380,7 @@ img {
 }
 
 .section__contact-us {
-    background: url(../images/Map-Image.png) right no-repeat, rgba(255, 255, 255, 0.7);
+    background: url(../images/Map-Image.png);
     background-color: var(--background-world-map);
     background-repeat: no-repeat;
     background-position: right;
@@ -396,11 +396,11 @@ img {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    flex-basis: 100%;
 }
 
 .feedback-form {
     width: 455px;
-    height: 212px;
 }
 
 .feedback-form-item:not(:last-child) {
@@ -410,13 +410,14 @@ img {
 
 .input-comment {
     width: 455px;
-    min-height: 212px;
     resize: none;
+    padding: 10px 0 0 20px;
 }
 
 .input-item {
     width: 100%;
     height: 50px;
+    padding: 20px 0 20px 20px;
 
 }
 
@@ -424,7 +425,43 @@ img {
     display: block;
     border-radius: 3px;
     background-color: rgb(254, 209, 54);
-    width: 240px;
-    height: 66px;
+    min-width: 240px;
+    min-height: 66px;
     margin: 0 auto;
+    cursor: pointer;
+    color: var(--base-color-light-white);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--main-font-family);
+    line-height: 19px;
+
+}
+
+.btn__send-message:hover,
+.btn__send-message:focus {
+    color: var(--base-color-black);
+}
+
+
+.input-item::placeholder,
+.input-comment::placeholder {
+  text-transform: uppercase;
+}
+
+:required:focus {
+  outline: none;
+}
+
+.input-item:required:focus:valid,
+.input-comment:required:focus:valid {
+  border: 2px solid rgb(0, 255, 0);
+  box-shadow: inset 0 0 3px 1px rgb(0, 255, 0);
+}
+
+.input-item:required:focus:invalid,
+.input-comment:required:focus:invalid {
+  border: 2px solid rgb(255, 0, 0);
+  box-shadow: inset 0 0 3px 1px rgb(255, 0, 0);
 }
