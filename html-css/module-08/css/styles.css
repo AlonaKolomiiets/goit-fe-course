@@ -113,6 +113,15 @@ img {
 
 /*MENU HEADER*/
 
+.page-header {
+    padding: 20px 14px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
 .logo {
     font-size: 20px;
     font-weight: 400;
@@ -134,12 +143,8 @@ img {
     font-weight: var(--main-font-weight);
     background-color: rgba(26, 25, 21, 0);
     border: none;
-}
-
-.sign-up-btn {
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 8px 16px;
+    outline: none;
+    cursor: pointer;
 }
 
 .menu {
@@ -150,6 +155,18 @@ img {
 
 .main-menu-item:not(:last-child) {
     margin-right: 16px;
+}
+
+.sign-up-btn {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+.sign-up-btn:hover,
+.sign-up-btn:focus {
+    border: 2px solid var(--base-color-red);
+    color: var(--base-color-red);
 }
 
 .logo-1 {
@@ -187,20 +204,10 @@ img {
     border-radius: 30px;
     padding: 12px 39px;
     text-align: center;
-}
-
-.page-header {
-    padding: 20px 14px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
+    max-width: 284px;
 }
 
 .hero-header {
-    padding-top: 22vh;
-    padding-bottom: 26vh;
     background-image: url(../images/mobile/header_bg-image-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,13 +217,23 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 15px;
+    padding: 15px;
+}
+
+.container-hero {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .container-hero {
+        max-width: 284px;
+    }
 }
 
 /* Meet a partner for your best holiday*/
 
 .meet-partners {
-    padding: 46px 20px 56px;
+    padding: 56px 20px 56px;
 }
 
 .section-title {
@@ -228,6 +245,14 @@ img {
 
 .partners-item {
     margin-bottom: 28px;
+    width: 278px;
+}
+
+.partners-list {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
 }
 
 .img-partner {
@@ -291,20 +316,128 @@ img {
     color: var(--base-color-red);
     background-color: var(--base-color-white);
     border: 2px solid rgb(255, 78, 80);
-    display: inline-block;
-    margin: 0 auto;
-}
-.for-btn-see-more {
-text-align: center;
 }
 
-/* @media (min-width: 768px) {
+.for-btn-see-more {
+    text-align: center;
+}
+
+/* TABLET*/
+
+@media (min-width: 768px) {
     .container {
-        width: 492px;
+        width: 680px;
+        /* padding: 0 58px 0; */
+    }
+
+    .logo-2 {
+        display: none;
     }
 
     .logo-1 {
-        display: block;
+        display: initial;
+        font-weight: 700
     }
 
-} */
+    .page-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .page-header {
+        padding-top: 46px;
+    }
+
+    .hero-header {
+        background-image: url(../images/tablet/header_bg-image-tablet.jpg);
+    }
+
+    .page-title {
+        font-size: 52px;
+        line-height: 62px;
+        margin-bottom: 36px;
+    }
+
+    .container-hero {
+        max-width: 500px;
+    }
+
+    .title-description {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 36px;
+    }
+
+    .partners-list {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .partners-item {
+        width: calc((100% - 10px) / 2);
+        margin-bottom: 56px;
+    }
+
+    .partners-item:last-child {
+
+        margin-bottom: 36px;
+    }
+
+    .partners-item:nth-child(2) {
+
+        margin-bottom: 36px;
+    }
+
+    .meet-partners {
+        padding: 74px 20px 40px;
+    }
+
+    .order-first {
+        order: -1;
+    }
+
+    .order-second {
+        order: -1;
+    }
+
+    .section-title {
+        margin-bottom: 36px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1319px) {
+    .container {
+        padding: 0 58px 0;
+    }
+}
+
+/* DESKTOP*/
+
+@media (min-width: 1320px) {
+    .container {
+        width: 942px;
+    }
+
+    .hero-header {
+        background-image: url(../images/desktop/header_bg-image-desktop.jpg);
+    }
+
+    .partners-item {
+        width: calc((100% - 60px) / 4);
+    }
+
+    .see-more {
+        padding: 12px 30px;
+    }
+
+    .partners-list {
+        justify-content: space-between;
+    }
+
+    .partners-description {
+        padding: 0;
+    }
+}
