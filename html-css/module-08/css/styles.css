@@ -107,7 +107,7 @@ img {
 }
 
 .container {
-    width: 280px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -115,7 +115,7 @@ img {
 
 .logo {
     font-size: 20px;
-    font-weight: var(--main-font-weight);
+    font-weight: 400;
     line-height: 24px;
     color: var(--base-color-white);
     font-family: var(--main-font-family);
@@ -145,7 +145,6 @@ img {
 .menu {
     display: flex;
     justify-content: center;
-    margin-bottom: 118px;
     align-items: center;
 }
 
@@ -153,17 +152,17 @@ img {
     margin-right: 16px;
 }
 
-@media (max-width: 767px){
 .logo-1 {
     display: none;
 }
-}
+
 .page-title {
     font-size: 30px;
     line-height: 36px;
     color: var(--base-color-white);
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: -1px;
 }
 
 .title-description {
@@ -178,7 +177,7 @@ img {
 }
 
 .more {
-    display: block;
+    display: inline-block;
     font-family: var(--main-font-family);
     font-weight: var (var(--main-font-weight));
     font-size: var(--main-font-size);
@@ -191,21 +190,27 @@ img {
 }
 
 .page-header {
+    padding: 20px 14px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-header {
+    padding-top: 22vh;
+    padding-bottom: 26vh;
     background-image: url(../images/mobile/header_bg-image-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 20px 14px 138px;
-    position: fixed;
-    /* height: 100vh; */
-    top: 0;
-    left: 0;
-
-}
-
-.hero-header {
-    padding-top: 8px;
-    position: absolute;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
 }
 
 /* Meet a partner for your best holiday*/
@@ -247,7 +252,6 @@ img {
     bottom: -4px;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .tv-icon:after {
@@ -287,15 +291,20 @@ img {
     color: var(--base-color-red);
     background-color: var(--base-color-white);
     border: 2px solid rgb(255, 78, 80);
+    display: inline-block;
+    margin: 0 auto;
+}
+.for-btn-see-more {
+text-align: center;
 }
 
-@media (min-width: 768px) {
-.container {
-    width: 492px;
-}
+/* @media (min-width: 768px) {
+    .container {
+        width: 492px;
+    }
 
-.logo-1 {
-    display: block;
-}
+    .logo-1 {
+        display: block;
+    }
 
-}
+} */
