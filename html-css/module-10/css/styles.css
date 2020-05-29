@@ -1,4 +1,3 @@
-
 :root {
     --main-font-size: 14px;
     --main-font-family: 'Montserrat', sans-serif;
@@ -621,7 +620,6 @@ img {
 }
 
 
-
 .social-list__item:hover,
 .social-list__item:focus {
     background-color: var(--base-color-red);
@@ -632,14 +630,14 @@ img {
     fill: var(--base-color-white);
 }
 
-.team-name {
+.team__name-item {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 8px;
     font-weight: 400;
 }
 
-.team-position {
+.team__position {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 300;
@@ -662,8 +660,8 @@ img {
     border-top: 1px solid rgb(229, 229, 229);
     padding: 28px 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .btn {
